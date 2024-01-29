@@ -1,7 +1,7 @@
 import pymongo
 
 # provide the url to connect with the client
-client = pymongo.MongoClient("mongodb+srv://chouhanharshrajsingh4:jaigurudev@cluster0.fnzozwe.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://<Email>:<password>@cluster0.fnzozwe.mongodb.net/?retryWrites=true&w=majority")
 
 # Database name
 dataBase = client["my_database"]
